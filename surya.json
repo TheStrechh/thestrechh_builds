@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Carlos Arriaga (TheStrechh)",
+			"oem": "Poco",
+			"device": "POCO X3 (NFC)",
+			"filename": "crDroidAndroid-13.0-20221206-surya-v9.0.zip",
+			"download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221217-0012/crDroidAndroid-13.0-20221216-surya-v9.0.zip",
+			"timestamp": 1670326084,
+			"md5": "827e3402a62556e367e4c46b42606361",
+			"sha256": "4b6a61e26ddc4cf23175623348ff975c7a5eb8867bf17e142e1376d76b36b8ac",
+			"size": 1217021676,
+			"version": "9.0",
+			"buildtype": "Beta",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/Strechh",
+			"telegram": "https://t.me/TheStrechhSupport",
+			"dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
+			"common-dt": "",
+			"kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
+		}
+	]
+}
