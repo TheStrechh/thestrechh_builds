@@ -1,0 +1,23 @@
+General changelog:
+- surya: overlay: drop smooth display
+- surya: power: Change default GPU idle timeout to 60ms
+- surya: parts: Fix compilation for QPR1 merge
+- surya: Remove discard command tuning
+- surya: Update props
+- surya: Nuke msm_irqbalance
+- surya: rootdir: Add offline charging LED indicator
+- surya: Remove the unused permission for qvr nodes
+- surya: No sys_boot for pm-service
+- surya: sepolicy: Allow /proc/stat access from some HALs
+- surya: Update LPA interface version to 1.2
+- surya: Enable TDES support when Keymaster 4.0 is enabled
+- surya: Migrate to AIDL ClearKey DRM HAL
+- surya: configs: Regen manifest
+- surya: build hardware audio 2.0-4.0
+- surya: properties: Use FUSE passthrough mode by default
+- surya: Add Moto dolby support
+- surya: overlay: Disable alpha compositing in WM
+- surya: Add Moto dolby support
+- surya: Switch to latest clang for kernel
+- surya: Add prebuilt camera interfaces
+- surya: Upstream kernel linux version and CLO
