@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1671402462,
-      "filename": "DerpFest-13-Community-Tango-surya-20221218-2230.zip",
-      "id": "b049748f25b543251a2b651cc8764629bd35398e1f2b1991ea6f8136748f6e3c",
+      "datetime": 1671570472,
+      "filename": "DerpFest-13-Community-Tango-surya-20221220-2110.zip",
+      "id": "dfd4a07672ff61c2e38463f5b90845381d1d5a3f51a781127bcf78ffd7a6d179",
       "romtype": "Community",
-      "size": 1500462762,
-      "url": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221219-0033/DerpFest-13-Community-Tango-surya-20221218-2230.zip",
+      "size": 1630380661,
+      "url": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221220-2245/DerpFest-13-Community-Tango-surya-20221220-2110.zip",
       "version": "13"
     }
   ]
