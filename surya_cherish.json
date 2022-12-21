@@ -1,0 +1,28 @@
+{
+        "response": [
+                {
+                        "maintainer": "Carlos Arriaga (TheStrechh)",
+                        "oem": "Poco",
+                        "device": "Poco X3",
+                        "filename": "Cherish-OS-v3.9.5-20220802-1645-surya-OFFICIAL-GApps.zip",
+                        "download": "https://sourceforge.net/projects/cherish-os/files/device/surya/Cherish-OS-v3.9.5-20220802-1824-surya-OFFICIAL-GApps.zip/download",
+                        "timestamp": 1659326472,
+                        "md5": "1e8486ccc68b1e60e6d18e3b0a2b8026",
+                        "sha256": "fd86338be87f70efdd6792b2de3dc3d4ae76d45f",
+                        "size": 1817920926,
+                        "version": 3.9.5,
+                        "buildtype": "Active Development Releases",
+                        "forum": "https://t.me/cherishOS",
+                        "gapps": "",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/strechh",
+                        "telegram": "https://t.me/TheStrechhSupport",
+                        "dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
+                        "common-dt": "",
+                        "kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
+                }
+        ]
+}
