@@ -1,28 +1,28 @@
 {
-        "response": [
-                {
-                        "maintainer": "Carlos Arriaga (TheStrechh)",
-                        "oem": "Poco",
-                        "device": "POCO X3 (NFC)",
-                        "filename": "crDroidAndroid-13.0-20221217-surya-v9.0.zip",
-                        "download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221217-2209/crDroidAndroid-13.0-20221217-surya-v9.0.zip",
-                        "timestamp": 1671313452,
-                        "md5": "46cf8ae16f9b5457a2b1f2ace82a8eab",
-                        "sha256": "9ec5137494277eec1a3ca3d41deda3d3799fa76ce14e92083b4dc2a409b5f7f4",
-                        "size": 1239610583,
-                        "version": "9.0",
-                        "buildtype": "Beta",
-                        "forum": "",
-                        "gapps": "",
-                        "firmware": "",
-                        "modem": "",
-                        "bootloader": "",
-                        "recovery": "",
-                        "paypal": "https://paypal.me/Strechh",
-                        "telegram": "https://t.me/TheStrechhSupport",
-                        "dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
-                        "common-dt": "",
-                        "kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
-                }
-        ]
+	"response": [
+		{
+			"maintainer": "Carlos Arriaga (TheStrechh)",
+			"oem": "Poco",
+			"device": "POCO X3 (NFC)",
+			"filename": "crDroidAndroid-13.0-20221221-surya-v9.0.zip",
+			"download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221221-0608/crDroidAndroid-13.0-20221221-surya-v9.0.zip",
+			"timestamp": 1671596882,
+			"md5": "298dd9a313377309b8ed15eebfdb4f2c",
+			"sha256": "a233d62280ce37724100d5675d99ec111bf7be4db041f6180c0e56189b1cc028",
+			"size": 1239525244,
+			"version": "9.0",
+			"buildtype": "Beta",
+			"forum": "",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/Strechh",
+			"telegram": "https://t.me/TheStrechhSupport",
+			"dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
+			"common-dt": "",
+			"kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
+		}
+	]
 }
