@@ -9,38 +9,8 @@ Changelog Cherish v4.3 22/12/2022
 
 Device Changelog 22/12/2022
 
-- Initial support OTA
-- For smoother scrolling and better responsiveness
-- Compact cached app heaps in the background
-- Configure SQLite to operate in MEMORY mode
-- Offload WM shell to another thread
-- Enable config_avoidGfxAccel
-- Update kernel flags
-- Update Graphics blobs from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0 & LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-- Parts: Add russian translation
-- Parts: Add Ukrainian translation
-- Parts: move per app refresh to display
-- Parts: drop clear speaker
-- Allow more cached apps in the background
-- Drop smooth display
-- Change default GPU idle timeout to 60ms
-- Fix compilation for QPR1 merge
-- Remove discard command tuning
-- Update props
-- Nuke msm_irqbalance
-- Add offline charging LED indicator
-- Remove the unused permission for qvr nodes
-- No sys_boot for pm-service
-- Allow /proc/stat access from some HALs
-- Update LPA interface version to 1.2
-- Enable TDES support when Keymaster 4.0 is enabled
-- Migrate to AIDL ClearKey DRM HAL
-- Regen manifest
-- Build hardware audio 2.0-4.0
-- Use FUSE passthrough mode by default
-- Add Moto dolby support
-- Disable alpha compositing in WM
-- Add Moto dolby support
-- Switch to latest clang for kernel
-- Add prebuilt camera interfaces
-- Upstream kernel linux version and CLO
+- Sync last sources Cherish
+- Revert "surya: Don't limit inodes on /system_ext"
+- surya: Fix BOARD_FLASH_BLOCK_SIZE
+- surya: cmdline: Disable kpti
+- surya: rootdir: Enable suspend to RAM
