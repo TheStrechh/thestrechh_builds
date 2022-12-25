@@ -4,12 +4,12 @@
 			"maintainer": "Carlos Arriaga (TheStrechh)",
 			"oem": "Xiaomi",
 			"device": "Mi 9T",
-			"filename": "crDroidAndroid-13.0-20221221-davinci-v9.0.zip",
-			"download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221221-0412/crDroidAndroid-13.0-20221221-davinci-v9.0.zip",
-			"timestamp": 1671591030,
-			"md5": "1dad30506bfa25ca7fca87082d8d48b2",
-			"sha256": "7e5bdf0982cff6ad899f9f19f04c0d8a3d71b7d0b9b06c97ba0075a90e4d28cf",
-			"size": 1205745605,
+			"filename": "crDroidAndroid-13.0-20221225-davinci-v9.0.zip",
+			"download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221225-1538/crDroidAndroid-13.0-20221225-davinci-v9.0.zip",
+			"timestamp": 1671953270,
+			"md5": "ad38c399666caee6ecdf714bddeded6a",
+			"sha256": "bbe8c09c2b6331c0c4bf046b73c5e20ae92358fc30c950c24b071e93ae243a9e",
+			"size": 1205761020,
 			"version": "9.0",
 			"buildtype": "Beta",
 			"forum": "",
@@ -20,9 +20,9 @@
 			"recovery": "",
 			"paypal": "https://paypal.me/Strechh",
 			"telegram": "https://t.me/TheStrechhSupportDavinci",
-			"dt": "https://github.com/xiaomeme-dumps/android_device_xiaomi_davinci",
+			"dt": "https://github.com/TheStrechh/android_device_xiaomi_davinci",
 			"common-dt": "",
-			"kernel": "https://github.com/xiaomeme-dumps/android_kernel_xiaomi_davinci"
+			"kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_davinci"
 		}
 	]
 }
