@@ -1,11 +1,99 @@
 ====================
-     12-25-2022
+     12-28-2022
+====================
+
+   * bionic
+4e3ba05a6 Switch to jemalloc memory allocator
+f99f4c0c7 Revert "Add ability to build scudo-free 32-bit libc variant."
+
+   * build/make
+8f1ec2f1a Merge 'lineage-20.0' into 13.0
+dd97cd639 Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk
+
+   * device/xiaomi/surya
+2494293 surya: overlay: set fps path
+8477322 surya: Enable freeform window management
+429c3f2 surya: cleanup camera blobs
+8edf9f8 surya: overlay: Enable config_forceMultiResolution
+222b181 surya: enable blur in crdroid features
+9d4cab3 surya: overlay: import cr configs
+afe66cf surya: parts: drop order settings
+8b37fe6 surya: convert overlays to RROs
+97fadb2 surya: add hotword enrollment blobs from vayu
+
+   * frameworks/av
+6464880f9e HACK: libcameraservice: Make system cameras available to all camera apps
+12c2bb1294 Revert "Camera: Add support for readout timestamp"
+
+   * frameworks/base
+f26774cc4cb6 Merge pull request #2 from crdroidandroid/13.0
+0f1fab6a1d23 Camera: Allow skipping input configuration check
+64a71e341579 SystemUI: old style mobile indicator layout fixes
+e7f8482162bc Merge pull request #1 from crdroidandroid/13.0
+8b3bfcccdad8 Avoid NetworkPolicyLogger NullPointException
+19e961c3eb54 base: Blacklist OPlusExtras for Parallel space
+b770063f8704 base: Whitelist DocumentsUIGoogle for Parallel space
+1e14bd641106 SystemUI: Fix QS header alignment with status bar
+8dc2846c1129 DNM Revert "Camera: Add support for readout timestamp"
+b5a61312e81e SystemUI: Clean up leftover with alignment
+e3d3279427c5 SystemUI: Align QS header with status bar
+baa6f6f9f400 Network traffic mode for status bar [2/3]
+
+   * packages/apps/DeskClock
+17b4ad4f0 Merge 'lineage-20.0' into 13.0
+
+   * packages/apps/Etar
+b332cffd Override androidx.startup.InitializationProvider authority name
+
+   * vendor/xiaomi/surya
+396b8ca surya: cleanup camera blobs
+fb335a8 surya: add hotword enrollment blobs from vayu
+
+====================
+     12-27-2022
+====================
+
+   * frameworks/base
+b7ebca6f4f42 StatusBarIconController: Avoid crash due to incorrect casting
+3f4c6ae22ce2 Remove network traffic mode implementation
+e59d09ffbb9d Improvements for dynamic VoLTE & VoWiFi icons
+7193fa23c7f1 Fix VPN icon failed reloading after disabling
+23f067a99424 Switch back to multiple listeners in RecentTasksController
+
+   * packages/apps/DeskClock
+8f482b0c8 DeskClock: Timer Setup: Add double-zero button
+da8bf5fc7 DeskClock: Redesign Timer input
+
+   * packages/apps/Launcher3
+3de2308cc9 Launcher3: Update activity for Aperture camera shortcut
+
+   * packages/apps/Settings
+2b33c81e7a Settings: Fix restore default apn dialog sometimes not dismissed.
+6f5d270172 Settings: Allow editing all APNs and APN types
+
+   * thestrechh/builds
+cdd372c Update changelog_surya.txt
+d3010cb OTA is up for surya Derp
+
+   * vendor/addons
+5d690e3 addons: Update icons from lawnicons
+
+====================
+     12-26-2022
 ====================
 
    * device/xiaomi/surya
-db643d6 surya: livedislpay: drop AdaptiveBacklight
-ce3c519 surya: 2023 cleanup
-38416fc surya: reworked overlays to RRO
+dba7135 surya: disable remote Keygaurd animation
+dd29019 surya: cleanup tree
+d7b7e50 surya: livedislpay: drop AdaptiveBacklight
+
+   * thestrechh/builds
+9d169ba changelog crDroid surya is up!
+12011c5 Surya is up!
+
+====================
+     12-25-2022
+====================
 
    * frameworks/base
 2085d4870f42 New Crowdin updates (#922)
@@ -19,6 +107,11 @@ afc97b79f5aa TwilightService: Use temporary TwilightState when location is not a
    * packages/apps/Aperture
 4ebad08 Revert "Retain launcher icon on migration from Camera2"
 c232812 Aperture: Implement preview blurring during rebind
+
+   * packages/apps/DeskClock
+cfe1f215d DeskClock: Make expand and collapse animations faster
+98d11bb38 DeskClock: Fix collapsing animation
+c37a5cab8 DeskClock: Fix adding alarms after deletion
 
    * packages/apps/GameSpace
 8848891 New translations (#31)
@@ -180,13 +273,18 @@ f5efaf3 Cherish OTA for surya is up!
 40e783119 Move memcpy_base.S into memcpy.S.
 ab7ed5ba1 Revert "libc: arm64: optimize memcpy"
 de64853d0 Revert "libc: arm64: Use SIMD-accelerated memcpy"
+921895886 Remove assembler wmemmove().
 
    * build/make
+627731538 Remove fs utilities from init_boot module list
 6d80a9f56 Fix uninitialized value warnings.
 
    * external/arm-optimized-routines
 60ad55b Build the optimized memset().
 4c688fd Build the optimized memcpy() and memmove().
+
+   * external/e2fsprogs
+9b8f6573 Mark e2fsck/resize2fs/tune2fs as `recovery_available`
 
    * frameworks/av
 5bbe5c57f4 Fix an issue that the syncTimestampToDisplayLocked incorrect
@@ -203,6 +301,12 @@ b98eed1f1571 SystemUI: Switch notification background to monet on heads up
    * packages/apps/Aperture
 2316d25 Aperture: Animate secondaryTopBarLayout visibility
 62a285a Aperture: Allow setting flash mode during video recording
+
+   * packages/apps/DeskClock
+42067fb6e Update Deskclock to use USE_EXACT_ALARM
+6c3aad824 DeskClock: Don't require READ_PHONE_STATE permission
+8e5748227 DeskClock: Get rid of reflection
+2cd2bbccd DeskClock: Remove MediaPlayerPlaybackDelegate
 
    * packages/apps/DocumentsUI
 ea54cfc1a DocumentsUI: add icons for shortcuts
@@ -237,6 +341,8 @@ bc23d6e Rename crdroid_davinci.json to davinci_crdroid.json
 e3d7c6c Rename davinci.json to crdroid_davinci.json
 d4c1c69 Create cherish_surya.txt
 c3a8ad6 Initial support OTA
+2502a61 Update changelog_surya.txt
+58faf04 OTA derpfest surya!
 
    * vendor/lineage
 ab9826ad reworking OTA
@@ -247,11 +353,6 @@ dbe4673 surya: Update Graphics blobs
 ====================
      12-21-2022
 ====================
-
-   * bionic
-ab7ed5ba1 Revert "libc: arm64: optimize memcpy"
-de64853d0 Revert "libc: arm64: Use SIMD-accelerated memcpy"
-921895886 Remove assembler wmemmove().
 
    * bootable/recovery
 1d6fe743 Merge 'lineage-20.0' into 13.0
@@ -280,8 +381,6 @@ d1e2e88e8e3b SystemUI: Fix up status bar start side content layout
 5ce66306ee Merge pull request #306 from iusmac/13.0
 
    * thestrechh/builds
-2502a61 Update changelog_surya.txt
-58faf04 OTA derpfest surya!
 d8b0732 Crdroid update X3 is up!
 abc8890 Crdroid update for davinci is up!
 5f07c75 Is up derpfest
@@ -338,201 +437,3 @@ b2f8f4e Update changelog
 c1102e2 Initial test
 3debca8 Init load changelog
 23e4518 init json for derpfest surya
-
-====================
-     12-18-2022
-====================
-
-   * device/xiaomi/surya
-13fa8d8 surya: overlay-lineage: back old ids
-9bd837d surya: add prebuilt camera interfaces
-
-   * frameworks/base
-e68c3ee57bb2 fwb: Smart Pixels on UDFPS - drop disable_smart_pixels_on_udfps flag
-
-   * packages/apps/Aperture
-1d25fe0 Aperture: Update com.google.android.material to 1.8.0-beta01
-
-   * scripts
-d30fabd Update and rename pixelos_davinci.sh to pe_davinci.sh
-986b44e Initial pe surya script
-12fe699 Create arrow_surya.sh
-
-   * thestrechh/builds
-0b58619 Uppdate
-537236a davinci update
-1df97aa put
-2ebe9d5 works now
-11bb48f damm
-ab1cdb3 fix typo
-cd655ca Initial surya test
-
-   * vendor/xiaomi/surya
-4562d8e surya: add prebuilt camera interfaces
-
-====================
-     12-17-2022
-====================
-
-   * android
-ff7d203 Revert "manifest: Track external/mimalloc"
-
-   * device/xiaomi/davinci
-a379c1c davinci: overlay: re-add values
-69800c4 davinci: overlay: Update values
-16841f9 davinci: Switch to latest clang for kernel
-41cfe8f davinci: overlay-lineage: Unlock additional camera framerates
-
-   * device/xiaomi/surya
-fee4e04 surya: overlay-lineage: Update id cameras
-36adc31 surya: Drop prebuilt camera provider
-e1e73ee surya: overlay-lineage: Unlock additional camera framerates
-
-   * frameworks/base
-4119a4347512 New Crowdin updates (#920)
-5dc97fbe6192 SystemUI: Match lockscreen clock font with system
-
-   * frameworks/native
-4012a65050 BLASTBufferQueue: Comment out lines causing log spam (#13)
-
-   * packages/apps/Aperture
-8c16842 Aperture: Fix constraints in secondaryTopBarLayout
-f2f5ef2 Automatic translation import
-
-   * packages/apps/Backgrounds
-1ef8819 Automatic translation import
-
-   * packages/apps/Dialer
-fa2730785 New Crowdin updates (#39)
-
-   * packages/apps/Eleven
-07753f5 Automatic translation import
-
-   * packages/apps/Etar
-c4a539c4 Automatic translation import
-
-   * packages/apps/FlipFlap
-f47229f Automatic translation import
-
-   * packages/apps/GameSpace
-7aa9333 New Crowdin updates (#30)
-
-   * packages/apps/Launcher3
-dbeafd6c59 New Crowdin updates (#303)
-
-   * packages/apps/Recorder
-81f95c3 Automatic translation import
-
-   * packages/apps/Updater
-679cad4 Updater: set device name
-2028c01 Update strings.xml
-
-   * packages/apps/crDroidSettings
-a1c56fd New Crowdin updates (#994)
-
-   * packages/resources/devicesettings
-cc821fa Automatic translation import
-
-   * scripts
-5167f7d Update crdroid_davinci.sh
-2c6f384 Update crdroid_surya.sh
-3293a6f Update rice_surya.sh
-7ab2db9 Create pixelos_davinci.sh
-731a533 Update crdroid_davinci.sh
-fc29204 Update crdroid_surya.sh
-d94c61c Update crdroid_surya.sh
-42bfc4f Update crdroid_davinci.sh
-4908513 Update rice_surya.sh
-6ddcde6 Update crdroid_surya.sh
-7cc23b5 Update crdroid_davinci.sh
-5be1e68 Update rice_surya.sh
-
-   * thestrechh/builds
-ec015fa Initial sury
-dd77049 works
-0d21771 Update davinci.json
-88e014a Create davinci.json
-
-   * vendor/crowdin
-30d5323 Automatic translation import
-
-   * vendor/lineage
-d7329fc6 Update createjson.sh
-3600afe3 Update createjson.sh
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc
-130d2a04 Merge pull request #1 from garry-rogov/13.0
-5f54e321 NfcService: Sync with QPR1 AOSP changes, fix error: cannot find symbol
-
-   * vendor/xiaomi/surya
-877e40b surya: Drop prebuilt camera provider
-
-====================
-     12-16-2022
-====================
-
-   * device/lineage/sepolicy
-bb59154 Allow documents UI to access storage
-
-   * device/xiaomi/davinci
-6f694c3 davinci: Update sepolicy denials
-5c599c6 davinci: set BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
-ed52f74 davinci: Add sepolicy Labels
-0711629 davinci: configs: Regen manifest
-f8fb377 davinci: overlay: Drop unneded overlays
-
-   * device/xiaomi/surya
-01ec7c1 surya: overlay: Disable alpha compositing in WM
-1857713 surya: Switch to latest clang for kernel
-b6ad73d surya: set BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-180c144 surya: Add Moto dolby support
-
-   * frameworks/base
-b4561823bbd6 fwb: Allow disable Smart Pixels on UDFPS
-479daaef7088 Screenshot: Unregister task listener on destroy
-a0c062001305 FingerprintManager: Fix NPE due to sensorProps
-2a40ae10b5de SidefpsController: Apply ScaleFactor to sensorLocationY
-
-   * kernel/xiaomi/davinci
-ed974a9a0611 Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14 into lineage-20.0
-56f56b7d3ddf Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into lineage-20.0
-c0c2a2631867 Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into lineage-20.0
-60ac397c2380 Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into lineage-20.0
-6d273b70a986 scripts: mkcompile_h: Sign
-dc4537656ec2 arch: arm64: defconfig: Regenerate
-51adf36c7247 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common into lineage-20.0
-
-   * kernel/xiaomi/surya
-ad82e788d9ee Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14 into lineage-20.0
-4216abea4f7e Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into lineage-20.0
-c86d96386565 Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into lineage-20.0
-c3816523e809 Merge tag 'LA.UM.9.1.r1-13000-SMxxx0.QSSI13.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into lineage-20.0
-2fbb3f755fa0 drivers: fix build with clang 16
-2432e05e6793 arch: arm64: defconfig: Regenerate
-8908e34fbf56 Import regen def script
-
-   * packages/apps/Settings
-d8a306c205 Fix memory leak on SensorPrivacyManager Listener
-9e007e0821 Fix USB OTG hot plug out nndexOutOfBoundsException
-
-   * scripts
-a47e365 Update rice_surya.sh
-56b34d0 Update rice_surya.sh
-bd6b5aa Create rice_surya.sh
-b5c7b78 Rename lineage_surya.sh to crdroid_surya.sh
-286d521 Rename lineage_davinci.sh to crdroid_davinci.sh
-7a470e7 Update and rename crdroid-davinci.sh to lineage_davinci.sh
-deb4ca9 Create lineage_surya.sh
-60e22c2 Update and rename build-davinci.sh to crdroid-davinci.sh
-a0478ee Update build-davinci.sh
-f7dcd7b Update and rename build-rom.sh to build-davinci.sh
-
-   * thestrechh/builds
-58ebbec Initial commit
-
-   * vendor/nxp/opensource/commonsys/packages/apps/Nfc
-e8442eac NfcService: Sync with QPR1 AOSP changes
-
-   * vendor/xiaomi/surya
-8c6534d surya: Add Moto dolby support
-
