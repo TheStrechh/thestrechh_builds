@@ -1,16 +1,18 @@
-Changelog Cherish v4.3 22/12/2022
+Changelog v4.4 07/01/2023
 
-- Completed rebasing source 
-- Merged December security patch
-- Fixed some of the problems
-- Temporarily removed some features
+- Merged Jan security patch
+- Added support for Lockscreen clock fonts 
+- Added Battery charge warning 
+- Added Compass tile 
+- Added Lockscreen custom fonts
+- Added missing summary for Display size and text 
+- Fixed color issues on Pixel Launcher app drawer
+- Fixed launch of permission revoke activity from playstore 
+- Fixed glitchy charging info on AOD 
+- Improved old style mobile indicator layout
 - Improved the system
-- Added some new customizations
 
 Device Changelog 22/12/2022
 
-- Sync last sources Cherish
-- Revert "surya: Don't limit inodes on /system_ext"
-- surya: Fix BOARD_FLASH_BLOCK_SIZE
-- surya: cmdline: Disable kpti
-- surya: rootdir: Enable suspend to RAM
+- Update blobs from V13.0.5.0.SJGIDXM
+- Disable handling audio directing
