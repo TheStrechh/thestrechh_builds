@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Carlos Arriaga (TheStrechh)",
-			"oem": "Poco",
-			"device": "Poco X3",
-			"filename": "Cherish-OS-v4.3-20221223-2252-surya-UNOFFICIAL-GApps.zip",
-			"download": "https://github.com/TheStrechh/thestrechh_builds/releases/download/20221223-2352/Cherish-OS-v4.3-20221223-2252-surya-UNOFFICIAL-GApps.zip",
-			"timestamp": 1671835814,
-			"md5": "19859e1de66e3b88aec1ba0a8f728c71",
-			"sha256": "8e8ea93dcb51bdea770a69e15edaaa6b7446442b4f947c2a3c2a8f9798d7579a",
-			"size": 1908542028,
-			"version": 4.3,
-			"buildtype": "Active Development Releases",
-			"forum": "https://t.me/cherishOS",
+        "response": [
+                {
+                        "maintainer": "Carlos Arriaga (TheStrechh)",
+                        "oem": "Poco",
+                        "device": "Poco X3",
+                        "filename": "Cherish-OS-v4.4-20230110-0410-surya-UNOFFICIAL-GApps.zip",
+                        "download": "https://sourceforge.net/projects/thestrechh/files/surya/cherish/Cherish-OS-v4.4-20230110-0410-surya-UNOFFICIAL-GApps.zip/download",
+                        "timestamp": 1673323700,
+                        "md5": "dc32b84b834306fe154bcdf168d0e6d0",
+                        "sha256": "a659e5e6d08f1f01d4754dba069cbbe1e9edf8cd68a93ac536392603df0b730b",
+                        "size": 1966318011,
+                        "version": 4.4,
+                        "buildtype": "Active Development Releases",
+                        "forum": "https://t.me/cherishOS",
                         "gapps": "",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "",
-			"paypal": "https://www.paypal.me/strechh",
-			"telegram": "https://t.me/TheStrechhSupport",
-			"dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
-			"common-dt": "",
-			"kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
-		}
-	]
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://www.paypal.me/strechh",
+                        "telegram": "https://t.me/TheStrechhSupport",
+                        "dt": "https://github.com/TheStrechh/android_device_xiaomi_surya",
+                        "common-dt": "",
+                        "kernel": "https://github.com/TheStrechh/android_kernel_xiaomi_surya"
+                }
+        ]
 }
